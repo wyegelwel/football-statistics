@@ -1,13 +1,10 @@
-# scraper
+# Football data scraper
 
-A Clojure library designed to ... well, that part is up to you.
+I have had an incredibly difficult time getting statistics for football. This is my attempt to make the data a bit more accessible. I make no guarentees to the validity of the data, as it is pulled directly from [Fox Sports](http://msn.foxsports.com/). The code that did the scraping can be found in src/.
 
-## Usage
 
-FIXME
+## The data
 
-## License
+Check in the data directory of this project for csv of the past few years. 
 
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+If you want different data or organized different, you'll have to modify the code. I recommend looking at (download-stats ...) and going from there.
